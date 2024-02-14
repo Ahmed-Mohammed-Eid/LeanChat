@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        URL: "https://leanapi.gooadmin.art",
-        SOCKET_URL: "wss://leanapi.gooadmin.art",
+        URL: "https://leanapi.gooadmin.com",
+        SOCKET_URL: "wss://leanapi.gooadmin.com",
     },
     webpack: (config) => {
         config.module.rules.push({
